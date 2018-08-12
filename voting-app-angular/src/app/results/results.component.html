@@ -1,0 +1,6 @@
+<h3>Voting results</h3>
+<div class="grid grid-pad">
+	<a *ngFor="let game of games" class="col-1-4">
+		<h3>{{game.name}}: {{game.votes}}</h3>
+	</a>
+</div>
