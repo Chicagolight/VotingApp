@@ -3,6 +3,7 @@ Instructions:
 
 1.	Unpack the front-end vote-app_angular, and the back-end vote-app_spring.
 2.	Ensure Angular CLI is installed, along with Node.js and npm. https://angular.io/guide/quickstart
+    -node_modules is empty to meet upload requirements. Populate with necessary modules referenced in package.json
 3.	Ensure Maven is installed.	https://maven.apache.org/download.cgi
 4.	From the SpringBootAngularHttpGet folder, run "mvn spring-boot:run". This will launch the data server.
 5.	From the vote-app folder, run "npm start". This will launch the web application and launch the proxy to the data server.
